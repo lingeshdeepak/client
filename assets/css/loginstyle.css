@@ -1,0 +1,50 @@
+/* *{
+	color: rgb(255, 255, 255);
+} */
+
+.row{
+	margin-right: 0;
+}
+body{
+	background-color: darkgray;
+}
+
+.register{
+	margin: 6% 33%;
+	color: white;
+}
+
+#error{
+	color: red;
+	font-size: medium;
+}
+	
+#login{
+	/* margin: 4% 0 0 20%; */
+	color: white;
+	margin-right: 0;
+}
+#signup{
+	text-align: center;
+	color:brown;
+      margin-right: 0;
+      position: absolute;
+      top: 82%;
+      left: 45%;
+}
+a{
+	text-decoration: none;
+	color: rgb(80, 63, 238);
+}
+
+a:hover{
+	text-decoration: none;
+	border-color: rgb(76, 0, 255);
+	color: white;
+}
+
+#forget{
+    position: absolute;
+    top: 75%;
+    left: 46%;
+}

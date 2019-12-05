@@ -1,0 +1,33 @@
+<!-- <?php foreach($posts as $post): ?>
+      
+        <tr>
+        <td class="post-data"><?php echo $post['clientname'];?></td>
+        <td class="post-data"><?php echo $post['companyname'];?></td>
+        
+        <td class="post-data"><?php echo $post['phonenumber'];?></td>
+        <td class="post-data"><?php echo $post['email'];?></td>
+        <td class="post-data"><?php echo $post['address'];?></td>
+        <td>
+        <?php foreach( $country as $result=>$countries): ?>
+        <?php if( $result == $post['country'] ): ?><?php echo $countries ?><?php endif; ?>
+        <?php endforeach?>
+        </td> 
+        <td>
+        <?php foreach( $state as $result=>$states): ?>
+        <?php if( $post['state']==$states['s_id'] ): ?><?php echo $states['state'] ?><?php endif; ?>
+        <?php endforeach?>
+        </td> 
+        <td>
+        <?php foreach( $city as $result=>$cities): ?>
+        <?php if($post['city']==$cities['city_id'] ): ?><?php echo $cities['city'] ?><?php endif; ?>
+        <?php endforeach?>
+        </td> 
+        <td class="post-data"><?php echo $post['postalcode'];?></td>
+        
+          <td>
+          <a class="btn btn-small btn-warning"  href="<?php $id = $post["id"]; echo Base_url('client/editclient/'.$id); ?>">EDIT</a><br>
+          <a class="btn btn-small btn-danger" onclick="return deletefn()" href="<?php $id = $post["id"]; echo Base_url('client/deleteclient/'.$id); ?>">DELETE</a><br>
+          <a class="btn btn-success" href="<?php $id = $post["id"]; echo Base_url('client/clientdetails/'.$id); ?>">view</a>
+        </td>
+        </tr>
+      <?php endforeach; ?> -->

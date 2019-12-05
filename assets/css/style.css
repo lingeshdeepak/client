@@ -1,0 +1,80 @@
+input[type=text], input[type=email], input[type=password], input[type=number],input[type=tel], textarea, select {
+      width: 80%;
+      padding: 12px;
+      border: 1px solid #a1a3a3;
+      border-radius: 4px;
+      color: #2e2e2e;
+      transition: box-shadow 0.3s;
+    }
+input[type=file] { 
+      margin:12px 12px 12px 0;
+}
+
+ul{
+      list-style-type: none;
+      display: flex;
+
+}
+    
+#navleft,#navright{
+      padding: 0px;
+}
+
+li a{
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 24px;
+      text-decoration: none;
+}
+
+li a:hover{
+      background-color: white;    
+      text-decoration: none;
+}
+
+
+#addbtn{
+      background-color: #3ACAEC;
+      color: white;
+      border: 1px solid #3ACAEC;
+     position: relative;
+    left: 86%;
+}
+
+#addbtn:hover{
+      background-color: white;
+      color: #1ACCEA;
+      transition: 0.5s;
+}
+.viewclient{
+      margin-top: 5px;
+}
+thead td{
+      background-color: darkgrey;
+}
+
+.card{
+      box-shadow: 0 4px 8px 0 rgba(224, 67, 67, 0.2);
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+}
+      
+.card h1,h4{
+      color: rgb(3, 3, 3);
+}
+      
+.card #text{
+      color: #c45d59;
+      font-size: 16px;
+}
+
+.card img{
+      width: 300px;
+      height: 300px;
+}
+
+#details{
+      margin: 10px;
+}
