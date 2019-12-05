@@ -40,4 +40,11 @@
                   	<span>&times;</span>
                 	</button></p>
 		<?php endif; ?>
+
+		<?php if($this->session->flashdata('client_delete')): ?>
+		<p class="alert alert-success"><?php echo  $this->session->flashdata('client_delete')?>
+			<button type="button" class="close" onclick="closeFunc()">
+                  	<span>&times;</span>
+                	</button></p>
+		<?php endif; ?>
 </div>

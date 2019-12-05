@@ -78,7 +78,7 @@ class Client extends CI_Controller
 
             $this->client_model->addclient($post_image);
             
-            $this->session->set_flashdata('client_add', 'Client is added');
+            $this->session->set_flashdata('client_add', 'A New Client is added');
             redirect('client/viewclient');
         }
         
@@ -88,6 +88,8 @@ class Client extends CI_Controller
     public function deleteClient($id)
     {
         $this->client_model->delete_client($id);
+
+        $this->session->set_flashdata('client_delete', 'The Client Detail is Deleted');
         redirect('client/viewclient');
     }
 
@@ -142,7 +144,7 @@ class Client extends CI_Controller
 
 		$this->client_model->edit_client($post_image,$id);
 		
-		$this->session->set_flashdata('client_update', 'Client is Updated');
+		$this->session->set_flashdata('client_update', 'The Client Detail is Updated');
         redirect('client/viewclient');
     }
 
